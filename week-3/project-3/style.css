@@ -1,0 +1,50 @@
+
+h1 {
+    color: blue;
+}
+
+body {
+    background-color: lightcyan;
+}
+/*class */
+.font {
+    font-family: Georgia;
+}
+
+h1 , h2 {
+    text-align: center;
+}
+/*class*/
+.font-color {
+    color: green;
+}
+
+p {
+    line-height: 20px;
+}
+
+/* select child element by first selecting parent*/
+p b {
+    color: lightcoral;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*id*/
+#upper-case {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+/* select child element by first selecting parent*/
+ol li {
+    list-style: disc;
+}
