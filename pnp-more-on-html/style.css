@@ -1,0 +1,183 @@
+
+h1 {
+    color: blue;
+    margin-top: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px rgb(164, 164, 218);
+}
+
+
+#about-me {
+    font-size: 1.2em;
+    color: tomato;
+}
+
+#about-link:visited {
+    color: green;
+}
+main h2 {
+    color: blue;
+    margin: 15px;
+}
+
+
+table {
+    width: 500px;
+}
+
+table td {
+    border: .2em solid black;
+    color: darkcyan;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.para {
+   width: 500px;
+   margin: 0 auto;
+}
+
+#btt-link {
+    margin: 0 auto
+}
+
+.par-space {
+    margin-top: 15px;
+}
+
+.head-size {
+    color: blue;
+    font-size: 1.5em;
+}
+
+footer {
+    color: blue;
+}
+
+/* about me page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#home {
+    font-size: 1.5em;
+    margin: 10px  0;
+}
+
+#main-head {
+    display: inline-block;
+    border-bottom: 3px solid blue;
+    font-size: 2em;
+    margin: 40px 0 15px 20px;
+}
+
+img {
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+img:hover {
+    transform: rotate(15deg)
+    scale(1.2)
+}
+
+p {
+    margin-top: 10px;
+    width: 500px;
+    font-size: 1.2em;
+}
+
+section h3 {
+    color: blue;
+    font-size: 1.5em;
+    margin: 20px;
+
+}
+
+.reach-out {
+    margin: 20px;
+}
+
+label {
+    color: tomato;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+input, textarea {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#phone, #email {
+    padding: 2px;
+    margin: 5px;
+    border: .5px solid blue;
+    border-radius: 5px;
+    height: 30px;
+    width: 205px;
+    box-shadow: 2px px rgb(104, 114, 223);
+}
+
+#phone {
+    position: relative;
+    left: 65px;
+}
+
+#message-text {
+    color: blue;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+textarea {
+    margin: 10px;
+    box-shadow: 2px 2px rgb(104, 114, 223);
+    padding: 15px;
+    font-size: 15px;
+    color: blue;
+}
+
+textarea::placeholder {
+    color: tomato;
+    padding: 5px;
+}
+
+#footer-about{
+    text-align: left;
+}
+
+button {
+    height: 25px;
+    width: 70px;
+    margin-left: 260px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    color: blue;
+}
