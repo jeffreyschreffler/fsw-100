@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    width: 60%;
+    position: fixed;
+    left: 18%;
+    text-align: center;
+    height: 50px;
+    background-color: #BDD684;
+    padding-top: 10px;
+    border-bottom: 2px solid #95AB63;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 1;
+}
+
+ .tag-style {
+    color: white;
+    font-size: 22px;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: font-size .5s;
+}
+
+a:hover {
+    font-size: 28px;
+    color:whitesmoke;
+}
+
+/* .article-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    
+} */
+
+#main-wrapper {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#main-heading {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    z-index: 1;
+}
+
+#main-heading-linethrough {
+    border-top: 1px solid #67CC8E;
+    display: inline-block;
+    width: 280px; 
+    position:relative;
+    left: 300px;   
+    bottom: 2px;
+    z-index: 0;
+}
+
+.article-wrapper {
+    display: inline-block;
+    margin-bottom: -20px;
+    margin-top: 80px;
+    background-color: #BEEB9F;
+    padding: 10px 20px;
+    padding-bottom: 70px;
+    border-radius: 8px;
+    line-height: 30px;
+    
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+h6 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#article1, #article3 {
+    background-color: #67CC8E;
+    padding: 40px;   
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+#article2, #article4 {
+    background-color: #26A69A;
+    padding: 40px;    
+    color: white;
+    border-radius: 8px;
+}
+
+.photo-style {
+    float: left;
+    padding: 14px;
+    border-radius: 12%;
+}
+
+.article-wrapper p {
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    position: relative;
+    right: 28%;
+    top: 50px;
+    width: 150%;
+    height: 25px;
+    background-color: #009688;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 5px;
+    text-align: center;
+}
