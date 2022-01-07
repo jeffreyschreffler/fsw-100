@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* mobile */
+header h2 {
+    padding: 5px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+.nav-style{
+   width: 100%;
+   height: 50px;
+   margin: 0 auto;
+}
+
+.nav-style a {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about img {
+    margin-bottom: 20px;
+}
+
+.about p {
+    width: 250px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.sale-items h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sale-items {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sale-item-style {
+    padding: 5px;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+.bulk-savings h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+table {
+    font-size: 1.2em;
+    margin-left: 68px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .nav-style a {
+        display: inline-block;
+        font-size: 1.5em;
+        margin-left: 50px;
+    }
+
+    .about p {
+        font-size: 1.4em;
+    }
+
+    .sale-items h3 {
+        font-size: 1.4em;
+    }
+
+    .sale-items p {
+        font-size: 1.3em;
+    }
+
+    .sale-items {
+    margin-left: 150px;
+    }
+
+    .bulk-savings table{
+        margin-left: 210px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav-style a {
+        display: inline-block;
+        font-size: 1.5em;
+        margin-left: 50px;
+    }
+
+    .about p {
+        margin-left: 50px;
+        font-size: 1.4em;
+    }
+
+    .sale-items li {
+        margin-left: 650px;
+    }
+
+    table {
+        margin-left: 380px;
+    }
+}
