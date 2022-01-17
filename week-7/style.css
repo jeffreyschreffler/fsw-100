@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* mobile */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+/* flex container - sticky nav */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(133, 223, 60);
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+.nav-style {
+    margin-top: 10px;
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-style i {
+    color: yellow;
+}
+
+.nav-style a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    color: yellow;
+}
+
+a:hover {
+    font-size: 25px;
+    transition: .8s;
+}
+
+body {
+    background-color:rgba(8, 95, 226, 0.479);
+}
+
+.page-title-style {
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+}
+
+.page-title-style i {
+    font-size: 20px;
+}
+
+.main-photo img {
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.about-us p, .popup-events p, .group-session p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.4em;
+}
+/* flex container */
+.book-now {
+    display: flex;
+    justify-content: center;
+}
+
+.book-now button {
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 4px;
+    border-radius: 5px;
+    color: rgb(133, 223, 60);
+    background-color: yellow;
+}
+
+/* flex container*/ 
+.popup-events h3, .group-session h3{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(133, 223, 60);
+    color: yellow;
+    border-color: rgb(133, 223, 60);
+    font-size: 18px;
+    padding: 15px;
+
+}
+
+footer a {
+    color: white;
+}
+
+/* rental page */
+
+.product-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.rentnow {
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 4px;
+    border-radius: 5px;
+    color: rgb(133, 223, 60);
+    background-color: yellow;
+    position: relative;
+    left: 125px;
+}
+
+/* service page */
+
+.wrapper {
+    width: 80%;
+}
+
+
+.service-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.service-form input {
+    height: 25px;
+    width: 180px;
+}
+
+.submit {
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 4px;
+    border-radius: 5px;
+    color: rgb(133, 223, 60);
+    background-color: yellow;
+    margin-bottom: 75px;
+}
+
+
+/* 481-768 */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .about-us p, .popup-events p, .group-session p {
+        font-size: 22px;
+    }
+ 
+    .main-photo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    .main-photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us p, .popup-events p, .group-session p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+}
+
+
+/* rental page */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .product-img {
+        text-align: center;
+    }
+
+    .rentnow {
+        position: relative;
+        left: 0px;
+    }
+   
+}
+
+@media only screen and (min-width: 721px) {
+    .product-img {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+
+    .submit {
+        margin-bottom: 350px;
+    }
+}
+
+
+/* background - rgb(133, 223, 60); */
